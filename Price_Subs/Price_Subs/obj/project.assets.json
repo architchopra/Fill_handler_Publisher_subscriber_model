@@ -1,0 +1,224 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TimeZoneConverter/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TT.NET.SDK/3.2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TimeZoneConverter": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/tt-net-api.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/tt-net-api.dll": {}
+        },
+        "build": {
+          "build/TT.NET.SDK.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "TimeZoneConverter/5.0.0": {
+      "sha512": "U7Oilf3Ya6Rmu6gOaBfWyT3q0kwy2av6a5PfTn05CF54C+7DvuLsE3ljASvYmCpsSQeJvpnqU5Uzag6+ysWUeA==",
+      "type": "package",
+      "path": "timezoneconverter/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/TimeZoneConverter.dll",
+        "lib/net461/TimeZoneConverter.xml",
+        "lib/netstandard2.0/TimeZoneConverter.dll",
+        "lib/netstandard2.0/TimeZoneConverter.xml",
+        "timezoneconverter.5.0.0.nupkg.sha512",
+        "timezoneconverter.nuspec"
+      ]
+    },
+    "TT.NET.SDK/3.2.2.1": {
+      "sha512": "5625BRJK7gU873V+uKJ6P5m2GJfr606PCFKe9V9IkUyh5JKJpBkjLDOUQTPTTzo1hSkwoZIRSu/Rcwqjw2xzhg==",
+      "type": "package",
+      "path": "tt.net.sdk/3.2.2.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "TT.png",
+        "TTLicense.txt",
+        "build/TT.NET.SDK.targets",
+        "build/x64/boost_date_time-vc141-mt-x64-1_70.dll",
+        "build/x64/boost_filesystem-vc141-mt-x64-1_70.dll",
+        "build/x64/boost_serialization-vc141-mt-x64-1_70.dll",
+        "build/x64/iconv.dll",
+        "build/x64/lbm.dll",
+        "build/x64/lbmj.dll",
+        "build/x64/libcurl.dll",
+        "build/x64/libeay32.dll",
+        "build/x64/libprotobuf.dll",
+        "build/x64/msvcr110.dll",
+        "build/x64/snappy.dll",
+        "build/x64/ssleay32.dll",
+        "build/x64/vcruntime140_1.dll",
+        "build/x64/zlib1.dll",
+        "lib/net461/core-wrapper.dll",
+        "lib/net461/tt-net-api.dll",
+        "lib/net5.0/tt-net-api.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/TTNETAPI_DiagnosticTool.exe",
+        "tools/TTNETAPI_DiagnosticTool.exe.config",
+        "tools/TimeZoneConverter.dll",
+        "tools/boost_date_time-vc141-mt-x64-1_70.dll",
+        "tools/boost_filesystem-vc141-mt-x64-1_70.dll",
+        "tools/boost_serialization-vc141-mt-x64-1_70.dll",
+        "tools/core-wrapper.dll",
+        "tools/iconv.dll",
+        "tools/lbm.dll",
+        "tools/lbmj.dll",
+        "tools/libcurl.dll",
+        "tools/libeay32.dll",
+        "tools/libprotobuf.dll",
+        "tools/msvcr110.dll",
+        "tools/snappy.dll",
+        "tools/ssleay32.dll",
+        "tools/tt-net-api.dll",
+        "tools/zlib1.dll",
+        "tt.net.sdk.3.2.2.1.nupkg.sha512",
+        "tt.net.sdk.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "TT.NET.SDK >= 3.2.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\archit.chopra\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\archit.chopra\\source\\repos\\Price_Subs\\Price_Subs\\Price_Subs.csproj",
+      "projectName": "Price_Subs",
+      "projectPath": "C:\\Users\\archit.chopra\\source\\repos\\Price_Subs\\Price_Subs\\Price_Subs.csproj",
+      "packagesPath": "C:\\Users\\archit.chopra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\archit.chopra\\source\\repos\\Price_Subs\\Price_Subs\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\archit.chopra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "TT.NET.SDK": {
+            "target": "Package",
+            "version": "[3.2.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

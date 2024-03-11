@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "SdLvvYd1ZIQc2LKcErbOXBkarlP7/dwNL+MvIj4XYL7fbp8bvupzcqpIz7ZRBKvZa6CacBU45SjfVi6+Q34NRA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\archit.chopra\\source\\repos\\Price_Subs\\Price_Subs\\Price_Subs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\archit.chopra\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\archit.chopra\\.nuget\\packages\\timezoneconverter\\5.0.0\\timezoneconverter.5.0.0.nupkg.sha512",
+    "C:\\Users\\archit.chopra\\.nuget\\packages\\tt.net.sdk\\3.2.2.1\\tt.net.sdk.3.2.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
